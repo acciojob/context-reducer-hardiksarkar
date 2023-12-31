@@ -31,7 +31,7 @@ export default function ContextReducer() {
         {
             myList.map((item)=>{
                 return <li id={"item-"+{item}} key={"item"+{item}}>{item}
-                <button id={"remove"+{item}} onClick={()=>removeItem(item)} className='remove-bttn'>Remove</button></li>
+                <button id={"remove"+{item}} onClick={()=>removeItem(item)} className='remove-btn'>Remove</button></li>
             })
         }
       </ul>
